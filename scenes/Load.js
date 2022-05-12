@@ -9,7 +9,7 @@ class Load extends Phaser.Scene {
         // Load all assets here.
         // Since the asset keys can be used in any scene, can load here
         // and use in any other scene
-
+        this.load.atlas('link_atlas', 'linksheet.png', 'linkmap.json');
         // Load atlas here
 
         this.load.image('talltrees', 'talltrees.png');
